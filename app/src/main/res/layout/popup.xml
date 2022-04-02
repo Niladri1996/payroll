@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginRight="30dp"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="60dp"
+            android:background="#DDDDDD"
+            android:layout_below="@id/app"
+            android:id="@+id/ll_1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Year"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:padding="3dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_weight="1">
+
+            </TextView>
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/layout4"
+                android:padding="3dp"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"></Spinner>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Casual Leave "
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"
+                android:textColor="#000"></TextView>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:id="@+id/tv_casual_leave"
+                android:textColor="@color/popup_text"></TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Earn Leave "
+                android:paddingLeft="10dp"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:textColor="#000"></TextView>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:id="@+id/tv_earn_leav"
+                android:textColor="@color/popup_text"></TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Sick Leave "
+                android:paddingLeft="10dp"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:textColor="#000"></TextView>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:id="@+id/tv_sick_leave"
+                android:textColor="@color/popup_text"></TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:text="Comp Off "
+                android:textColor="#000"
+                android:textSize="15sp"></TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:id="@+id/tv_comp_off"
+                android:textColor="#8a8a8a"></TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Maternal Leave "
+                android:paddingLeft="10dp"
+                android:textColor="#000"
+                android:textSize="15sp"></TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:id="@+id/tv_matarnal_leave"
+                android:textColor="#8a8a8a"></TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Paternal Leave "
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:textSize="15sp"
+                android:textColor="#000"></TextView>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:id="@+id/tv_paternal_leave"
+                android:textColor="#8a8a8a"></TextView>
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/bt_ok"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="ok"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:textColor="#4A6688"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:background="@drawable/layout9"></Button>
+
+    </LinearLayout>
+
+
+</LinearLayout>
